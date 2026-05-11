@@ -1,3 +1,4 @@
+# My Node.js app
 FROM node:20-alpine
 WORKDIR /app
 RUN echo '{"name":"my-app","version":"1.0.0"}' > package.json
